@@ -30,7 +30,7 @@
                     <div class="images" style="position: relative;">
                         <p style="overflow-y: hidden; margin-top: 10px; color: white;">Encuéntranos en redes sociales como...</p>
                         <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" style="width: 39px; height: 39px; margin-right: 20px;" />
-                        <img src="https://assets.stickpng.com/images/623dd7d270712bdafc63c38a.png" style="width: 50px; height: 50px;" />
+                        <img src="https://i.pinimg.com/originals/42/a9/3d/42a93dea273d28f09a56b3196b567760.png" style="width: 50px; height: 50px;" />
                         <p style="overflow-y: hidden; margin-top: 10px; font-family: Arial;">destinosCR_ 23</p>
 
                     </div>
@@ -57,11 +57,11 @@
                     <div id="cardResorts" class="card">
                         <br>
                         <h5 class="strong" style="font-weight: bold; text-align: center; font-family: Georgia; font-size: 15px"><%# Eval("Name")%></h5>
-                        <img src="<%# Eval("Photo")%>" class="card-img-top" alt="...">
+                        <img src="<%# Eval("Photo")%>" class="card-img-top" alt="..." style="transition: transform 0.5s ease-in-out;" onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1)';">
                         <div class="card-body">
                             <p class="card-text" style="text-align: justify; overflow-y: hidden;"><%# Eval("Description")%></p>
                             <div class="precio">
-                                <strong style="font-weight: bold;">Precio: ₡</strong><%# Eval("Price")%>
+                                <strong style="font-weight: bold; font-family: Georgia; font-size: 15px;">Precio: ₡</strong><%# Eval("Price")%>
                             </div>
                         </div>
                     </div>
