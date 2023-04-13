@@ -30,7 +30,7 @@
                     <div class="images" style="position: relative;">
                         <p style="overflow-y: hidden; margin-top: 10px; color: white;">Encuéntranos en redes sociales como...</p>
                         <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" style="width: 39px; height: 39px; margin-right: 20px;" />
-                        <img src="https://i.pinimg.com/originals/42/a9/3d/42a93dea273d28f09a56b3196b567760.png" style="width: 50px; height: 50px;" />
+                        <img src="https://i.pinimg.com/originals/42/a9/3d/42a93dea273d28f09a56b3196b567760.png" style="width: 45px; height: 45px;" />
                         <p style="overflow-y: hidden; margin-top: 10px; font-family: Arial;">destinosCR_ 23</p>
 
                     </div>

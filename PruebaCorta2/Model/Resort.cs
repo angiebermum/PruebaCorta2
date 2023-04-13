@@ -12,17 +12,17 @@ namespace PruebaCorta2.Model
     // Clase que representa un resort en una base de datos, mapeada a la tabla "Resorts"
     public class Resort
     {
-        // Propiedad que representa el nombre del resort y se define como clave primaria
+        // Propiedad que representa el nombre y se define como llave primaria
         [Key]
         public string Name { get; set; }
 
-        // Propiedad que representa la descripción del resort 
+        // Propiedad que representa la descripción 
         public string Description { get; set; }
 
-        // Propiedad que representa la foto del resort 
+        // Propiedad que representa la foto 
         public string Photo { get; set; }
 
-        // Propiedad que representa el precio del resort 
+        // Propiedad que representa el precio 
         public decimal Price { get; set; }
     }
 }
